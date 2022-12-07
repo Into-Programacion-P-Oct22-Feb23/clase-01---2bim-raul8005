@@ -15,7 +15,6 @@ public class Ejemplo012 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
         System.out.println("Ciclo con incremente de contador de 5 en 5");            
       
         for (int i = 0; i < 10; i += 5) {
@@ -26,8 +25,14 @@ public class Ejemplo012 {
         
         for (int i = 0; i < 10; i += 3) {
             System.out.printf("%d\n", i);
+            
         }
-        
+      
+        for (int i = 20; i <= 30; i +=5 ) { 
+            System.out.printf("%d\n", i);
+        }
+         
+        System.out.println("Ciclo con incremente de contador de 5 en 5");
         
     }
     

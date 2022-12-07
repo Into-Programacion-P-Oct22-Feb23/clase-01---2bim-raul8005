@@ -16,7 +16,7 @@ public class Pregunta06 {
      */
     public static void main(String[] args) {
         int nota;
-        nota = 7;
+        nota = 7; 
         if (nota==7) {
             System.out.printf("La nota generada es %d\n", nota);
         }
